@@ -1,0 +1,52 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Secciones */
+section {
+  padding: 4rem 2rem;
+}
+
+/* Títulos */
+h1, h2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 50px;
+}
+
+/* Párrafos */
+p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* Imágenes dentro de secciones */
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
