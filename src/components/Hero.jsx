@@ -1,4 +1,4 @@
-import {FaReact } from 'react-icons/fa';
+
 
 function Hero() {
     return (
